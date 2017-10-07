@@ -24,8 +24,16 @@
           // add an image source
           newSubImg.src = "images/" + objectIndex.images[index];
 
+
+          //add an index number to the thumbnail for array refrence
+          newSubImg.dataset.index = index;
+
+
+
           // add some event handling
-          newSubImg.addEventListener('click', popLightbox, false);
+          newSubImg.addEventListener('click', function() { popLightbox(index, objectIndex); }, false);
+
+
 
           // append it to the container
           subImages.appendChild(newSubImg);
@@ -50,13 +58,49 @@
         element.addEventListener('click', changeElements, false);
       });
 
-      function popLightbox() {
+
+
+
+
+
+
+      function popLightbox(currentIndex, currentObject) {
         //debugger;
+
+
+        //this allows us to scroll back to the top when its clicked (unscrolls it)
+        window.scrollTo(0,0);
+        //this makes it so you cant move the background after (cant scroll the page once its open)
+        document.body.style.overflow = "hidden";
+
 
         // turn on the lightbox
         let lightbox = document.querySelector('.lightbox');
         lightbox.style.display = 'block';
+
+
+
+
+
+        //populate all the content on the page
+        let lightboxImg = lightbox.querySelector('img');
+        let lightboxClose = lightbox.querySelector('.close-lightbox');
+        let lightboxDesc = lightbox.querySelector('p');
+
+
+        lightboxImg.src = "images/" + currentObject.images[currentIndex];
+        lightboxDesc.innerHTML = currentObject.imageDescription[currentIndex];
+
+        lightboxClose.addEventListener('click', closeLightbox, false);
       }
+
+      function closeLightbox() {
+        debugger;
+
+        // reset all the lightbox content, close the lightbox (not nessarily in order)
+      }
+
+
 
       // initialize the app
       // theSubhead.firstChild.nodeValue = dynamicContent['spring'].headline;
