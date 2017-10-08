@@ -14,8 +14,8 @@ var dynamicContent = {
 			],
 
 			imageDescription : [
-				'This is some pretty butterflies',
-				'This is osme kind of mutant chicken',
+				'These are some pretty butterflies',
+				'This is some kind of mutant chicken',
 				'This is a goat laying on a tree',
 				'This is a bunny by some flowers',
 				'This is a forest',
