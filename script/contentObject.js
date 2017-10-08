@@ -6,12 +6,20 @@ var dynamicContent = {
 
 			images : [
 				"spring_1.jpg",
-				"spring_2.jpg"
+				"spring_2.jpg",
+				"spring_3.jpg",
+				"spring_4.jpg",
+				"spring_5.jpg",
+				"spring_6.jpg"
 			],
 
 			imageDescription : [
 				'This is some pretty butterflies',
-				'This is osme kind of mutant chicken'
+				'This is osme kind of mutant chicken',
+				'This is a goat laying on a tree',
+				'This is a bunny by some flowers',
+				'This is a forest',
+				'These are some flowers in the spring',
 			]
 
 		},
@@ -23,7 +31,20 @@ var dynamicContent = {
 
 			images : [
 				"summer_1.jpg",
-				"summer_2.jpg"
+				"summer_2.jpg",
+				"summer_3.jpg",
+				"summer_4.jpg",
+				"summer_5.jpg",
+				"summer_6.jpg"
+			],
+			
+			imageDescription : [
+				'These are some chairs',
+				'This is a dog in a hammock',
+				'This is a girl jumping into the ocean',
+				'This is a summer sunset',
+				'This is a beach with an unbrella',
+				'This is a palm tree with a sunset',
 			]
 		},
 
@@ -34,7 +55,20 @@ var dynamicContent = {
 
 			images : [
 				"autumn_1.jpg",
-				"autumn_2.jpg"
+				"autumn_2.jpg",
+				"autumn_3.jpg",
+				"autumn_4.jpg",
+				"autumn_5.jpg",
+				"autumn_6.jpg"
+			],
+			
+			imageDescription : [
+				'This is a beautiful orange tree',
+				'These are some pumpkins',
+				'House in the forest during Autumn',
+				'Close up of leaf in Autumn',
+				'Coffee in the Autumn morning',
+				'Sneaky fox during Autumn season',
 			]
 		},
 
@@ -45,7 +79,20 @@ var dynamicContent = {
 
 			images : [
 				"winter_1.jpg",
-				"winter_2.jpg"
+				"winter_2.jpg",
+				"winter_3.jpg",
+				"winter_4.jpg",
+				"winter_5.jpg",
+				"winter_6.jpg",
+			],
+			
+			imageDescription : [
+				'Winter Forest!',
+				'Chilly Snowman',
+				'Winter walkway',
+				'Frozen lake',
+				'White and black winter scene',
+				'Beautiful image of the winter night time!',
 			]
 		}
 	};
