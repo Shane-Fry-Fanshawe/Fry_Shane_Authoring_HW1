@@ -94,11 +94,22 @@
         lightboxClose.addEventListener('click', closeLightbox, false);
       }
 
+	
+	
+	//Personal Notes:
+	// To close the lightbox turn it back to display none since it is apperaing due to 'block', use event listener to listen when the X is clicked and use a function from there
+	// To allow scrolling set it back to "visible" when the X is clicked
+	// 
+	
+	
       function closeLightbox() {
         debugger;
 
         // reset all the lightbox content, close the lightbox (not nessarily in order)
       }
+	
+	
+	
 
 
 
